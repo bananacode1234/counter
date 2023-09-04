@@ -1,0 +1,32 @@
+* {
+	user-select: none;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	background-color: black;
+	cursor: pointer;
+}
+
+#counter-container {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+#counter {
+	color: white;
+}
+
+#clicks-container {
+	position: fixed;
+  	bottom: 0;
+  	left: 0;
+	padding-left: 15px;
+}
+
+#clicks {
+	font-weight: bold;
+	color: white;
+}
